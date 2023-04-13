@@ -172,7 +172,7 @@ public class Animal //implements Contract
         System.out.println("The " + this.species + " has just magically caused the " + this.item + " to grow " + this.number + " times its size.");
         return number;
     }
-
+ 
     /** Allows the animal to sleep/rest */
     public void rest() {
         System.out.println("The " + this.species + " is tired. " + "It needs to go to sleep now, zzzzzz....");
